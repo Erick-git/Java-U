@@ -5,11 +5,15 @@ public class Human {
     int heightInches;
     String eyeColor;
 
-
-    public Human(){
-
+    public Human(String name, int age, int heightInches, String eyeColor) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.heightInches = heightInches;
+        this.eyeColor = eyeColor;
     }
 
+ 
     public void speak(){
         System.out.println("Hola me llamo " + name);
         System.out.println("Mido " + heightInches + " cm  de altura");
