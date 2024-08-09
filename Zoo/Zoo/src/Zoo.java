@@ -14,6 +14,7 @@ public class Zoo {
         bird1.fly();
         bird1.eat();
         bird1.sleep();
+        bird1.fly();
         
      }
 
