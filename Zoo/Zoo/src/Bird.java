@@ -8,4 +8,11 @@ public class Bird extends Animal{
 
     }
 
+    @Override
+    void eat() {
+       
+        System.out.println("Desayuno semillitas de girazol");
+    }
+    
+
 }

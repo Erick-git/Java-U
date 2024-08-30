@@ -1,4 +1,7 @@
-public class Animal {
+public abstract class Animal 
+
+    
+ {
     String name;
     int age;
     String gender;
@@ -27,9 +30,10 @@ public class Animal {
         System.out.println("Corro en la selva");
     }
 
-    public void eat(){
-        System.out.println("Desayuno humanos");
-    }
+     abstract void eat(); 
+       
+    
+
 
     public void sleep(){
         System.out.println("Duermo en el día");
