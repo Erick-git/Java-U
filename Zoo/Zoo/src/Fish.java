@@ -8,5 +8,11 @@ public class Fish extends Animal{
         System.out.println("Nadando....");
     }
 
+    //@Override
+    /*void eat() {
+       
+        System.out.println("Soy un ejemplo de override");
+    }*/
+
 
 }
